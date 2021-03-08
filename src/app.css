@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 18px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 500px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    background-color: darkblue;
+    width: 150px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    float: right;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    border: 1px palegreen solid;
+}
+
+button:disabled {
+    background-color: rgb(157, 157, 207);
+}
+
+table {
+    width: 100%;
+}
+
+table thead {
+    background-color: turquoise;
+}
+
+table tbody {
+    background-color: wheat;
+}
+
+tr:hover {
+    background-color: rgb(218, 186, 127);
+}
+
+.form {
+    width: 500px;
+}
+
+.button-tbl {
+    width: 75px;
+    height: 25px;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.container {
+    width: 800px;
+    margin: 10vh auto;
+}
